@@ -258,7 +258,7 @@ p {
     border-width: 1px;
 }
 
-.tweet_section {
+.tweetSection {
     width: 597.87px;
     height: 118.13px;
     padding: 16px;
@@ -295,20 +295,20 @@ p {
     color: white;
 }
 
-.mainsearchbaricons {
+.mainSearchbarIcons {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.mainsearchbaricons i {
+.mainSearchbarIcons i {
     color: rgb(29, 155, 240);
     padding: 5px;
     filter: brightness(50%);
     font-size: 24px;
 }
 
-.mainsearchbaricons i:hover {
+.mainSearchbarIcons i:hover {
     cursor: pointer;
     background-color: rgba(29, 156, 240, 0.218);
     border-radius: 50%;
@@ -331,7 +331,7 @@ p {
     filter: brightness(50%);
 }
 
-.show_posts {
+.showPosts {
     display: flex;
     width: 597.87px;
     height: 48px;
@@ -343,7 +343,7 @@ p {
     font-size: 35px;
 }
 
-.show_posts p {
+.showPosts p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -357,7 +357,7 @@ p {
     color: white;
 }
 
-.tweet_grid {
+.tweetGrid {
     display: flex;
     flex-wrap: wrap;
     padding: 15px;
@@ -420,17 +420,17 @@ p {
     display: flex;
 }
 
-.profile_p {
+.profilePicture {
     width: 450px;
     text-align: left;
 }
 
-.profile_p p {
+.profilePicture p {
     width: 100%;
     height: 20px;
 }
 
-.profile_p i:hover {
+.profilePicture i:hover {
     cursor: pointer;
     background-color: rgb(29, 155, 240);
 }
@@ -476,13 +476,13 @@ p {
     width: 150px;
 }
 
-.one_line {
+.twtText {
     align-items: center;
     width: 450px;
     height: 20px;
 }
 
-.searchbar2 {
+.searchbarRight {
     width: 350px;
     height: 53px;
     display: inline;
@@ -491,7 +491,7 @@ p {
 
 }
 
-.searchbar2 span {
+.searchbarRight span {
     background-color: rgba(128, 128, 128, 0.241);
     border-radius: 50px;
     width: 350px;
@@ -501,7 +501,7 @@ p {
     margin-left: 20px;
 }
 
-.searchbar2 input {
+.searchbarRight input {
     width: 303.87px;
     height: 41.07px;
     padding-left: 12px;
@@ -510,7 +510,7 @@ p {
     color: white;
 }
 
-.searchbar2 i {
+.searchbarRight i {
     color: grey;
     font-size: 21px;
     padding-left: 12px;
@@ -525,7 +525,7 @@ p {
     margin-left: 25px;
 }
 
-.premium_section {
+.premiumSection {
     width: 347.87px;
     height: 144;
     color: white;
@@ -539,22 +539,22 @@ p {
 
 }
 
-.premium_section span {
+.premiumSection span {
     float: left;
     clear: left;
     margin: 15px;
 }
 
-.premium_section p {
+.premiumSection p {
     width: 100%;
 }
 
-.premium_heading p {
+.premiumHeading p {
     font-weight: bold;
     font-size: 23px;
 }
 
-.premium_paragraph p {
+.premiumParagraph p {
     font-size: 18px;
 }
 
@@ -582,12 +582,12 @@ h1 {
     margin-top: 20px;
 }
 
-.trends_for_you_text {
+.trendsForYouText {
     color: #606060;
     margin: 0px;
 }
 
-.trends_info_p {
+.trendsMore {
     color: rgb(29, 155, 240);
     margin-left: 40px;
     margin-top: 28px;
@@ -606,7 +606,7 @@ h1 {
     border-radius: 15px;
 }
 
-.trends_info {
+.trendsInfo {
     width: 320.87px;
     height: 65px;
     color: white;
@@ -619,40 +619,40 @@ h1 {
 
 }
 
-.trends_info i:hover {
+.trendsInfo i:hover {
     cursor: pointer;
     background-color: rgba(30, 52, 142, 0.5);
     ;
     border-radius: 50%;
 }
 
-.trends_info span {
+.trendsInfo span {
     float: left;
     clear: left;
     margin: 20px;
     width: 90%;
 }
 
-.trends_info .trends_i {
+.trendsInfo .trends_i {
     width: 30px;
 }
 
-.trends_info i {
+.trendsInfo i {
     float: right;
     padding: 3px;
 }
 
-.trends_text p {
+.trendsText p {
     color: #606060;
     width: 220px;
 }
 
-.trends_text .bottom {
+.trendsText .bottom {
     padding: 0;
     margin: 0;
 }
 
-.trends_text .top {
+.trendsText .top {
     padding: 0;
     margin: 0;
 }
@@ -663,7 +663,7 @@ h2 {
     margin: 0px;
 }
 
-.who_to_follow {
+.whoToFollow {
     width: 350px;
     height: 350px;
     display: flex;
@@ -679,7 +679,7 @@ h2 {
     position: sticky;
 }
 
-.who_to_follow_section {
+.whoToFollowSection {
     color: white;
     display: inline-flex;
     flex-grow: 1;
@@ -696,7 +696,7 @@ h2 {
     line-height: 2px;
 }
 
-.who_to_follow img {
+.whoToFollow img {
     width: 40px;
     height: 40px;
     margin-left: 10px;
