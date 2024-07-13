@@ -4,10 +4,534 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/twitter-logo-2.svg" type="image/x-icon">
+    <title>Home / X</title>
+
 </head>
 
 <body>
+    <div class="row">
+        <div class="column1">
+            <div class="sidebar">
+                <div class="categories">
+                    <div class="logo">
+                        <img src="https://c.ndtvimg.com/2023-07/9kac2es_twitter-x-650_650x400_24_July_23.jpg" alt="">
+                    </div>
+
+                    <span class="category active">
+                        <i class="material-icons">home_filled</i>
+                        Home
+                    </span>
+                    <span class="category">
+                        <i class="material-icons">search</i>
+                        Search
+                    </span>
+
+                    <span class="category">
+                        <i class="material-icons">notifications</i>
+                        Notifications
+                    </span>
+
+                    <span class="category">
+                        <i class="material-icons">mail</i>
+                        Messages
+                    </span>
+
+                    <span class="category">
+                        <i class="material-icons">explore</i>
+                        Lists
+                    </span>
+                    <span class="category">
+                        <i class="material-icons">bookmark</i>
+                        Bookmarks
+                    </span>
+                    <span class="category">
+                        <i class="material-icons">group</i>
+                        Communities
+                    </span>
+                    <span class="category">
+                        <i class="material-icons">workspace_premium</i>
+                        Premium
+                    </span>
+                    <span class="category">
+                        <i class="material-icons">bolt</i>
+                        Verified
+                    </span>
+                    <span class="category">
+                        <i class="material-icons">person</i>
+                        Profile
+                    </span>
+                    <span class="category">
+                        <i class="material-icons">pending</i>
+                        More
+                    </span>
+                    <button class="postbutton">Post</button>
+                </div>
+                <div class="footer">
+                    <span class="account">
+                        <i class="material-icons front">account_circle</i>
+                        <p><strong>JM Ferreira</strong>
+                            <br>@JMFerreira
+                        </p>
+                        <i class="material-icons back">more_horiz</i>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+        <div class="column2">
+            <div class="main_container">
+                <div class="navbar">
+                    <button class="b1">For you</button>
+                    <button class="b2">Following</button>
+                </div>
+                <div class="tweet_section">
+                    <div class="searchbar">
+                        <i class="material-icons front">face</i>
+                        <form class="search">
+                            <input type="text" placeholder="What is happening?!" />
+                    </div>
+                    <div class="mainsearchbaricons">
+                        <div class="searchBarIcons">
+                            <i class="material-icons front">image</i>
+                            <i class="material-icons front">gif_box</i>
+                            <i class="material-icons front">format_list_bulleted</i>
+                            <i class="material-icons front">sentiment_satisfied</i>
+                            <i class="material-icons front">pending_actions</i>
+                            <i class="material-icons front">location_on</i>
+                        </div>
+                        <span>
+                            <button class="postbutton2">Post</button>
+                        </span>
+                    </div>
+
+                </div>
+                <div class="show_posts">
+                    <p>Show 63 posts</p>
+                </div>
+            </div>
+            <div class="tweets">
+                <div class="tweet_grid">
+                    <div class="tweet">
+
+                        <div class="profile">
+                            <img src="./assets/pp1.jpg" alt="">
+                        </div>
+                        <span class="profile_p">
+                            <p><b>Elon Musk</b> @elonmusk - 10H</p>
+
+                            <span class="one_line">
+                                <p>Surprise!</p>
+                            </span>
+                        </span>
+                        <i class="material-icons back">more_horiz</i>
+                    </div>
+
+                    <div class="thumbnail">
+                        <img src="./assets/meme2.jpg" alt="">
+                        <div class="tweet_icons">
+                            <i class="bi bi-chat">11K</i>
+                            <i class="bi bi-repeat">30K</i>
+                            <i class="bi bi-heart">454K</i>
+                            <i class="bi bi-bar-chart">52M</i>
+                            <span>
+                                <i class="bi bi-bookmark"></i>
+                                <i class="bi bi-box-arrow-up"></i>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tweet_grid">
+                    <div class="tweet">
+
+                        <div class="profile">
+                            <img src="./assets/pp5.jpg" alt="">
+                        </div>
+                        <span class="profile_p">
+                            <p><b>freeCodeCamp.org</b> @freeCodeCamp - 15H</p>
+
+                            <span class="one_line">
+                                <p>Spring Boot is a powerful framework that helps you develop Spring applications.
+                                    <br>
+                                    <br>
+                                    And this course will teach you how to build apps with Spring Boot and Java.
+                                    <br>
+                                    <br>
+                                    You'll learn about Java build tools & database integration and then build and test a
+                                    REST API.
+                                </p>
+                            </span>
+                        </span>
+                        <i class="material-icons back">more_horiz</i>
+                    </div>
+
+                    <div class="thumbnail">
+                        <img src="./assets/buildingWebApps.jpg" alt="">
+                        <div class="tweet_icons">
+                            <i class="bi bi-chat">4</i>
+                            <i class="bi bi-repeat">58</i>
+                            <i class="bi bi-heart">232</i>
+                            <i class="bi bi-bar-chart">13K</i>
+                            <span>
+                                <i class="bi bi-bookmark"></i>
+                                <i class="bi bi-box-arrow-up"></i>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet_grid">
+                    <div class="tweet">
+
+                        <div class="profile">
+                            <img src="./assets/pp7.jpg" alt="">
+                        </div>
+                        <span class="profile_p">
+                            <p><b>Visual Studio Code</b> @code</p>
+
+                            <span class="one_line">
+                                <p>Version 1.91 of @Code
+                                    is out TODAY with git change graphs, profile improvements, language model API and
+                                    much more!
+                                    <br>
+                                    <br>
+                                    <a
+                                        href="https://code.visualstudio.com/updates/v1_91">https://code.visualstudio.com/updates/v1_91</a>
+                                    <br>
+                                    <br>
+                                    And since reading release notes isn't the _most_ fun you can have on a Wednesday,
+                                    here's a handy thread of what's new in this release...🧵
+                                </p>
+                            </span>
+                        </span>
+                        <i class="material-icons back">more_horiz</i>
+                    </div>
+
+                    <div class="thumbnail">
+                        <img src="./assets/codeUpdate.jpg" alt="">
+                        <div class="tweet_icons">
+                            <i class="bi bi-chat">17</i>
+                            <i class="bi bi-repeat">120</i>
+                            <i class="bi bi-heart">538</i>
+                            <i class="bi bi-bar-chart">123.4K</i>
+                            <span>
+                                <i class="bi bi-bookmark"></i>
+                                <i class="bi bi-box-arrow-up"></i>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet_grid">
+                    <div class="tweet">
+
+                        <div class="profile">
+                            <img src="./assets/pp6.jpg" alt="">
+                        </div>
+                        <span class="profile_p">
+                            <p><b>Quincy Larson</b> @ossia - 5H</p>
+
+                            <span class="one_line">
+                                <p>Code Radio updates 🥁
+                                    <br>
+                                    <br>
+                                    🏘️ We added Discord right into the UI so you can chat while you listen
+                                    <br>
+                                    🛠️ We fixed a long-time bug that caused Code Radio to pause
+                                    <br>
+                                    ⌨️ Did you know there are hotkeys?
+                                    <br>
+                                    🎧 And a low data mode (64kbps)?
+                                    <br>
+                                    <br>
+                                    Instrumental jams to code to:
+                                </p>
+                            </span>
+                        </span>
+                        <i class="material-icons back">more_horiz</i>
+                    </div>
+
+                    <div class="thumbnail">
+                        <img src="./assets/codeRadio.jpg" alt="">
+                        <div class="tweet_icons">
+                            <i class="bi bi-chat">4</i>
+                            <i class="bi bi-repeat">15</i>
+                            <i class="bi bi-heart">63</i>
+                            <i class="bi bi-bar-chart">10K</i>
+                            <span>
+                                <i class="bi bi-bookmark"></i>
+                                <i class="bi bi-box-arrow-up"></i>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet_grid">
+                    <div class="tweet">
+
+                        <div class="profile">
+                            <img src="./assets/pp2.jpg" alt="">
+                        </div>
+                        <span class="profile_p">
+                            <p><b>GitHub Projects Community</b> @GithubProjects - 24H</p>
+
+                            <span class="one_line">
+                                <p>Who wrote that spaghetti code, let's find out:</p>
+                                <p class="hashtag">#Code</p>
+                            </span>
+                        </span>
+                        <i class="material-icons back">more_horiz</i>
+                    </div>
+
+                    <div class="thumbnail">
+                        <img src="./assets/meme1.jpg" alt="">
+                        <div class="tweet_icons">
+                            <i class="bi bi-chat">42</i>
+                            <i class="bi bi-repeat">67</i>
+                            <i class="bi bi-heart">346</i>
+                            <i class="bi bi-bar-chart">4.2K</i>
+                            <span>
+                                <i class="bi bi-bookmark"></i>
+                                <i class="bi bi-box-arrow-up"></i>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet_grid">
+                    <div class="tweet">
+
+                        <div class="profile">
+                            <img src="./assets/pp3.jpg" alt="">
+                        </div>
+                        <span class="profile_p">
+                            <p><b>SpaceX</b> @SpaceX - 15H</p>
+
+                            <span class="one_line">
+                                <p>Falcon 9 is vertical at SLC-40 ahead of today’s launch of the @turksat
+                                    6A mission. Liftoff is now targeted for 5:41 p.m. ET → <a
+                                        href="http://spacex.com/launches">http://spacex.com/launches</a></p>
+                                <p class="hashtag">#SpaceX</p>
+                            </span>
+                        </span>
+                        <i class="material-icons back">more_horiz</i>
+                    </div>
+
+                    <div class="thumbnail">
+                        <img src="./assets/rocket.jpg" alt="">
+                        <div class="tweet_icons">
+                            <i class="bi bi-chat">174</i>
+                            <i class="bi bi-repeat">608</i>
+                            <i class="bi bi-heart">4.4K</i>
+                            <i class="bi bi-bar-chart">669K</i>
+                            <span>
+                                <i class="bi bi-bookmark"></i>
+                                <i class="bi bi-box-arrow-up"></i>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="tweet_grid">
+                    <div class="tweet">
+
+                        <div class="profile">
+                            <img src="./assets/pp4.jpg" alt="">
+                        </div>
+                        <span class="profile_p">
+                            <p><b>Polaris</b> @PolarisProgram - 3H</p>
+
+                            <span class="one_line">
+                                <p>We are targeting no earlier than July 31 for the launch of Polaris Dawn</p>
+                            </span>
+                        </span>
+                        <i class="material-icons back">more_horiz</i>
+                    </div>
+
+                    <div class="thumbnail">
+                        <img src="./assets/polarisDawn.jpg" alt="">
+                        <div class="tweet_icons">
+                            <i class="bi bi-chat">531</i>
+                            <i class="bi bi-repeat">1.2K</i>
+                            <i class="bi bi-heart">7.7K</i>
+                            <i class="bi bi-bar-chart">1.3M</i>
+                            <span>
+                                <i class="bi bi-bookmark"></i>
+                                <i class="bi bi-box-arrow-up"></i>
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column3">
+
+            <div class="searchbar2">
+                <span>
+                    <i class="material-icons front">search</i>
+                    <form class="search2">
+                        <input type="text" placeholder="Search" />
+                </span>
+            </div>
+
+            <div class="premium">
+                <div class="premium_section">
+                    <span class="premium_heading">
+                        <p>Subscribe to premium</p>
+                    </span>
+                    <span class="premium_paragraph">
+                        <p>Subscribe to unlock new features and if eligible, recieve a share of ad's revenue</p>
+                    </span>
+                    <span class="postbutton3">
+                        <button>Subscribe</button>
+                    </span>
+
+                </div>
+            </div>
+            <div class="trends">
+
+                <h1>Trends for you</h1>
+
+                <div class="trends_info">
+                    <span class="trends_text">
+                        <p class="top">Politics</p>
+                        <h2>China</h2>
+                        <p class="bottom">3,424 posts</p>
+                    </span>
+                    <span class="trends_i"> <i class="material-icons back">more_horiz</i></span>
+                </div>
+
+                <div class="trends_info">
+                    <span class="trends_text">
+                        <p class="top">Trending in United States</p>
+                        <h2>Val Kilmer</h2>
+                        <p class="bottom">1,326 posts</p>
+                    </span>
+                    <span class="trends_i"> <i class="material-icons back">more_horiz</i></span>
+                </div>
+
+                <div class="trends_info">
+                    <span class="trends_text">
+                        <p class="top">Trending in United States</p>
+                        <h2>Boogie</h2>
+                        <p class="bottom">14.5K posts</p>
+                    </span>
+                    <span class="trends_i"> <i class="material-icons back">more_horiz</i></span>
+                </div>
+
+                <div class="trends_info">
+                    <span class="trends_text">
+                        <p class="top">Celebrities · Trending</p>
+                        <h2>Heath Ledger</h2>
+                        <p class="bottom">152K posts</p>
+                    </span>
+                    <span class="trends_i"> <i class="material-icons back">more_horiz</i></span>
+                </div>
+                <div class="trends_info">
+                    <span class="trends_text">
+                        <p class="top">Politics · Trending</p>
+                        <h2>Barron</h2>
+                        <p class="bottom">68K posts</p>
+                    </span>
+                    <span class="trends_i"> <i class="material-icons back">more_horiz</i></span>
+                </div>
+
+                <div class="trends_info">
+                    <span class="trends_text">
+                        <p class="top">Trending in United States</p>
+                        <h2>Houston</h2>
+                        <p class="bottom">46.8K posts</p>
+                    </span>
+                    <span class="trends_i"> <i class="material-icons back">more_horiz</i></span>
+                </div>
+
+                <div class="trends_info">
+                    <span class="trends_text">
+                        <p class="top">Trending in United States</p>
+                        <h2>USA vs Canada</h2>
+                        <p class="bottom">16.9K posts</p>
+                    </span>
+                    <span class="trends_i"> <i class="material-icons back">more_horiz</i></span>
+                </div>
+
+                <div class="trends_info">
+                    <span class="trends_text">
+                        <p class="top">Entertainment . Trending</p>
+                        <h2>Shrek 5</h2>
+                        <p class="bottom">54.2K posts</p>
+                    </span>
+                    <span class="trends_i"> <i class="material-icons back">more_horiz</i></span>
+                </div>
+                <p class="trends_info_p">Show more</p>
+            </div>
+
+            <div class="who_to_follow">
+                <h1>Who to follow</h1>
+                <span class="who_to_follow_section">
+                    <img src="assets/pp1.jpg" alt="">
+                    <span class="follow_span">
+                        <p><b>Elon Musk</b></p>
+                        <p class="trends_for_you_text">@elonmusk</p>
+                    </span>
+                    <span class="followButtonContainer">
+                        <button class="follow_button">Follow</button>
+                    </span>
+                </span>
+
+                <span class="who_to_follow_section">
+                    <img src="assets/pp8.jpg" alt="">
+                    <span class="follow_span">
+                        <p><b>CNN</b></p>
+                        <p class="trends_for_you_text">@CNN</p>
+                    </span>
+                    <span class="followButtonContainer">
+                        <button class="follow_button">Follow</button>
+                    </span>
+                </span>
+                <span class="who_to_follow_section">
+                    <img src="assets/pp9.jpg" alt="">
+                    <span class="follow_span">
+                        <p><b>Barack Obama</b></p>
+                        <p class="trends_for_you_text">@BarackObama</p>
+                    </span>
+                    <span class="followButtonContainer">
+                        <button class="follow_button">Follow</button>
+                    </span>
+                </span>
+                <p class="trends_info_p">Show more</p>
+            </div>
+            <!-- Footer -->
+            <div class="footer">
+                <div class="footer-section">
+                    <span>Terms of Service</span>
+                    <span>Privacy Policy</span>
+                    <span>Cookie Policy</span>
+                    <span>Accessibility</span>
+                    <span>Ads info</span>
+                    <span>More ...</span>
+                    <span>@2024 X Corp</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
 
 </body>
 
