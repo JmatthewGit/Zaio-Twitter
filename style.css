@@ -222,8 +222,6 @@ p {
     align-items: center;
     padding: 0px;
     display: flex;
-    /* position: fixed;
-    top: 0; */
 }
 
 .navbar button {
@@ -373,7 +371,6 @@ p {
 }
 
 .tweet_icons i:hover {
-    /* background-color: rgb(29, 155, 240); */
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -481,7 +478,6 @@ p {
 
 .one_line {
     align-items: center;
-    /* display: inline-flex; */
     width: 450px;
     height: 20px;
 }
@@ -747,8 +743,6 @@ h2 {
     font-weight: 500;
     margin-right: 20px;
     color: #606060;
-
-
 }
 
 .footer-section span:hover {
